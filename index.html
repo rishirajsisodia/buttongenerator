@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+    <title>Button Generator</title>
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<span id="header">Button Generator</span>
+<div id="container">
+<div id="userval">
+<p>Button-Label:</p>
+<input id="label_name" placeholder="Label">
+<p>Font-Color:</p>
+<input id="colorholder1" type="color">
+<p>Font-Size:</p>
+<input placeholder="Font size" id="Font_size" type="text">
+<div>
+<p>Padding:</p>
+<input id="padding_top" placeholder="Padding-top" type="text">
+<input id="padding_bottom" placeholder="Padding-bottom" type="text">
+<input id="padding_left" placeholder="Padding-left" type="text">
+
+<input id="padding_right" placeholder="Padding-right" type="text">
+</div>
+<div>
+<p>Border Size and Color:</p>
+<input id="border_size" placeholder="Size" type="text">
+<!--<input id="border_type" placeholder="Type" type="text">-->
+<div><input id="border_color" placeholder="Color" type="color"></div>
+</div>
+<p>Border-Radius: </p>
+<input id="border_radius" placeholder="Border-Radius" type="text">
+<p>Background:</p>
+<input id="colorholder2"  type="color">
+</div>
+
+
+
+
+
+<div id="output">
+<div id="viewresult">
+<div id="showbutton"><button id="btn">label</button></div>
+</div>
+<div id="code">
+<button id="generator">Generate</button>
+<p><b>HTML:</b></p>
+<p id="htmlcode"></p>
+<p><b>CSS:</b></p>
+<p id="codeprinter">
+</p>
+</div>
+</div>
+</div>
+<script src="style.js"></script>
+</body>
+</html>
