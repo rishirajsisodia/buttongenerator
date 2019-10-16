@@ -153,10 +153,9 @@ let htmlc=document.getElementById("htmlcode");
 let codeprint=document.getElementById('codeprinter');
 let generate=document.getElementById('generator');
 generate.onclick=()=>{
-    alert("Generated");
-htmlc.textContent=`<button id='btn'>${label_name.value}</button>;`
+htmlc.textContent=`<button id='btn'>${label_name.value}</button>`
 codeprint.innerHTML=
-`.btn{
+`#btn{
 color:${label_name.value};<br>
 font-size:${fsize.value}px;<br>
 padding-top:${pt.value}px;<br>

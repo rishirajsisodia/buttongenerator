@@ -92,6 +92,10 @@ border:1px solid #ccc;
 padding: 5px 10px;
 cursor:pointer;
 }
+
+#htmlcode,#codeprinter{
+    font-size:13px;
+}
 @media screen and (max-width:700px)
 {
 #container{
