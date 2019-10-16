@@ -156,7 +156,7 @@ generate.onclick=()=>{
 htmlc.textContent=`<button id='btn'>${label_name.value}</button>`
 codeprint.innerHTML=
 `#btn{
-color:${label_name.value};<br>
+color:${color1.value};<br>
 font-size:${fsize.value}px;<br>
 padding-top:${pt.value}px;<br>
 padding-right:${pr.value}px;<br>
