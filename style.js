@@ -163,7 +163,7 @@ padding-right:${pr.value}px;<br>
 padding-bottom:${pb.value}px;<br>
 padding-left:${pl.value}px;<br>
 border-color:${bcolor.value};<br>
-border-size:${bsize.value}px;<br>
+border-width:${bsize.value}px;<br>
 border-radius:${bradius.value}px;<br>
 background: ${color2.value};<br>
 }`
